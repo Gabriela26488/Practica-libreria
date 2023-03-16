@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería Virtual</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+
+        <div class="buscar">
+            <i class="fa-solid fa-magnifying-glass"></i><input type="text" name="Buscar" placeholder="Buscar libro" class="src" autocomplete="off">
+        </div>
+    
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="index.html">Inicio</a>
+            <a href="libros.html">Libros</a>
+            <a href="contactos.html">Contáctanos</a>
+            <a href="registro.html">Regístrate</a>
+        </nav>
+    </header>
+
+    <section class="registro">
+        
+        <img src="img/book.png" alt="book">
+
+        <form action="registro" id="formulario" method="POST" >
+
+            <h2 class="titulo">¡Regístrate!</h2>
+
+            <div class="form-input">
+                <i class="fas fa-user"></i>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+            </div>
+
+            <div class="form-input">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+
+            <div class="form-input">
+                <i class="fa-solid fa-phone"></i>
+                <input type="text" name="telefono" id="telefono" placeholder="teléfono" required>
+            </div>
+
+            <input type="submit" class="btn solid" value="Registrarme" id="act">
+        </form>
+
+        <div class="image">
+            <div class="image-text">
+                <i class="fa-solid fa-envelope"></i>
+                <p>Recibe nuestra newsletter y entérate de todas las novedades</p>
+            </div>
+            <div class="image-text">
+                <i class="fa-solid fa-book-open"></i>
+                <p>Lee y escucha los primeros capítulos de tus libros favoritos antes que nadie</p>
+            </div>
+            <div class="image-text">
+                <i class="fa-solid fa-message"></i>
+                <p>Comenta, valora, crea tus listas y comparte con tus amigos</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-content-col">
+                <h4>Temática</h4>
+                <ul>
+                    <li><a href="#">Novela contemporánea</a></li>
+                    <li><a href="#">Novela histórica</a></li>
+                    <li><a href="#">Novela literaria</a></li>
+                    <li><a href="#">Autoayuda</a></li>
+                    <li><a href="#">Infantil</a></li>
+                    <li><a href="#">Juvenil</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content-col">
+                <h4>Libros</h4>
+                <ul>
+                    <li><a href="#">¡Esto se acabó!</a></li>
+                    <li><a href="#">El deseo y el infinito</a></li>
+                    <li><a href="#">Los Imposibles 7</a></li>
+                    <li><a href="#">12 pasos para cocinar la imagen</a></li>
+                    <li><a href="#">Tokio blues</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content-col">
+                <h4>Autores</h4>
+                <ul>
+                    <li><a href="#">Diego Arroyo Gil</a></li>
+                    <li><a href="#">Milan Kundera</a></li>
+                    <li><a href="#">Megan Maxwell</a></li>
+                    <li><a href="#">Leonardo Padura</a></li>
+                    <li><a href="#">Nelson Bocaranda</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content-col">
+                <h4>Síguenos en</h4>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="footer-autor">© Copyright @ By <span>Gabriela Fernández</span></h4>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+</html>

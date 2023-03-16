@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería Virtual</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="../img/logo.png" alt="logo"></a>
+
+        <div class="buscar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="Buscar" placeholder="Buscar libro" class="src" autocomplete="off">
+        </div>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+    
+        <nav class="navbar">
+            <a href="index.html">Inicio</a>
+            <a href="libros.html">Libros</a>
+            <a href="contactos.html">Contáctanos</a>
+            <a href="registro.html">Regístrate</a>
+        </nav>
+    </header>
+
+    <section class="home" id="inicio">
+
+        <div class="home-content">
+            <h1>Librería Virtual</h1>
+            <h2>¡Regístrate y consigue un libro de tu preferencias totalmente gratis!</h2>
+            <p>Consulta las últimas novedades en libros e e-book de todos los géneros. Encuentra la nueva novela que estás buscando para leer y descubre los últimos lanzamientos y publicaciones de libros.</p>
+            <a href="registro.html" class="btn swing">REGISTRARME</a>
+        </div>
+    
+        <div class="home-image">
+            <input type="radio" name="buttons" id="r1">
+            <input type="radio" name="buttons" id="r2" checked>
+            <input type="radio" name="buttons" id="r3">
+            <input type="radio" name="buttons" id="r4">
+            <input type="radio" name="buttons" id="r5">
+
+            <div class="home-image-slides">
+                <img src="img/1.jpg" alt="imagen1">
+                <img src="img/2.jpg" alt="imagen2">
+                <img src="img/3.jpg" alt="imagen3">
+                <img src="img/4.jpg" alt="imagen4">
+                <img src="img/5.jpg" alt="imagen5">
+            </div>
+
+            <div class="control">
+                <label for="r1"></label>
+                <label for="r2"></label>
+                <label for="r3"></label>
+                <label for="r4"></label>
+                <label for="r5"></label>
+            </div>
+        </div>
+    </section>
+
+    <section class="parallax">
+        <div class="parallax-content bg">
+            <h2>¡Lleva tu libro sin miedo a que se manche!</h2>
+        </div>
+    </section>
+
+
+    <section class="novedades">
+        <h2 class="titulo">Últimas Novedades en Libros</h2>
+        <div class="galeria">
+            <img src="../img/1.jpg" alt="libro">
+            <img src="../img/2.jpg" alt="libro">
+            <img src="../img/3.jpg" alt="libro">
+            <img src="../img/4.jpg" alt="libro">
+            <img src="../img/5.jpg" alt="libro">
+            <img src="../img/6.jpg" alt="libro">
+            <img src="../img/7.jpg" alt="libro">
+            <img src="../img/8.jpg" alt="libro">
+            <img src="../img/9.jpg" alt="libro">
+            <img src="../img/10.jpg" alt="libro">
+        </div>
+    </section>
+
+    <section class="beneficios">
+        <h2 class="titulo">Beneficios de un <span>E-Book</span></h2>
+
+        <div class="bene-content">
+            <div class="bene-content-box">
+                <div class="box">
+                    <i class="fa-brands fa-usb"></i>
+                    <p>No entienden de espacio físico ni de peso. Podemos llevar decenas en un USB.</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-leaf"></i>
+                    <p>Su producción es respetuosa y amigable con el medio ambiente.</p>
+                </div>
+            </div>
+
+            <img src="../img/beneficios.png" alt="beneficios">
+
+            <div class="bene-content-box">
+                <div class="box">
+                    <i class="fa-solid fa-ban"></i>
+                    <p>No entienden de ediciones agotadas</p>
+                </div>
+                <div class="box">
+                    <i class="fa-sharp fa-solid fa-earth-americas"></i>
+                    <p>Accesibles al minuto en cualquier momento y lugar. Pueden ser entregados en un clic en cualquier rincón del mundo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="semana">
+        <h2 class="titulo">El Libro de la Semana</h2>
+        <div class="sem-content">
+            <img src="../img/principito.png" alt="principito">
+            <div class="sem-content-text">
+                <h3>El Principito</h3>
+                <h4>Antoine de Saint-Exupéry</h4>
+                <p>El principito es una eminencia de la literatura universal. Un libro digno de ser disfrutado tanto en la edad infantil como adulta, ya que esconde profundas enseñanzas de vida que difícilmente se olvidan.</p>
+                <p>Esta fábula cuenta la historia de un aviador, el narrador del libro, que se encuentra perdido en el desierto después de que su nave se haya averiado. Entonces conoce al Principito, quien viene de un reino lejano. Este pequeño príncipe comienza a plantear una serie de cuestiones al adulto a partir de un dibujo que le pide que realice.</p>
+                
+                <a href="#" class="btn">¡COMPRAR!</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="autores">
+        <h2 class="titulo">Autores reconocidos</h2>
+        <div class="autores-content">
+            <div class="autores-content-box">
+                <img src="../img/jk.jpg" alt="J. K. Rowling">
+                <div class="autores-content-text">
+                    <h3>J. K. Rowling</h3>
+                    <h4>Autora de Harry Potter</h4>
+                    <p><i class="fa-solid fa-quote-left"></i>Es importante recordar que todos tenemos algo de magia dentro de nosotros<i class="fa-solid fa-quote-right"></i></p>
+                </div>
+            </div>
+
+            <div class="autores-content-box">
+                <img src="../img/cslewis.jpg" alt="C. S. Lewis">
+                <div class="autores-content-text">
+                    <h3>C. S. Lewis</h3>
+                    <h4>Autor de Narnia</h4>
+                    <p><i class="fa-solid fa-quote-left"></i>Un día llegarás a ser tan maduro que volveras a leer cuentos<i class="fa-solid fa-quote-right"></i></p>
+                </div>
+            </div>
+            
+            <div class="autores-content-box">
+                <img src="../img/anais.jpg" alt="Anais Nin">
+                <div class="autores-content-text">
+                    <h3>Anais Nin</h3>
+                    <h4>Autora de Delta de Venus</h4>
+                    <p><i class="fa-solid fa-quote-left"></i>Escribimos para inventarnos un mundo mejor del que conocemos<i class="fa-solid fa-quote-right"></i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-content-col">
+                <h4>Temática</h4>
+                <ul>
+                    <li><a href="#">Novela contemporánea</a></li>
+                    <li><a href="#">Novela histórica</a></li>
+                    <li><a href="#">Novela literaria</a></li>
+                    <li><a href="#">Autoayuda</a></li>
+                    <li><a href="#">Infantil</a></li>
+                    <li><a href="#">Juvenil</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content-col">
+                <h4>Libros</h4>
+                <ul>
+                    <li><a href="#">¡Esto se acabó!</a></li>
+                    <li><a href="#">El deseo y el infinito</a></li>
+                    <li><a href="#">Los Imposibles 7</a></li>
+                    <li><a href="#">12 pasos para cocinar la imagen</a></li>
+                    <li><a href="#">Tokio blues</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content-col">
+                <h4>Autores</h4>
+                <ul>
+                    <li><a href="#">Diego Arroyo Gil</a></li>
+                    <li><a href="#">Milan Kundera</a></li>
+                    <li><a href="#">Megan Maxwell</a></li>
+                    <li><a href="#">Leonardo Padura</a></li>
+                    <li><a href="#">Nelson Bocaranda</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content-col">
+                <h4>Síguenos en</h4>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="footer-autor">© Copyright @ By <span>Gabriela Fernández</span></h4>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+</html>
